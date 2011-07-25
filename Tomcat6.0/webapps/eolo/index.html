@@ -1,0 +1,255 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Show Ligth Status</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+ <style type="text/css">
+			@import url(css/default.css);
+			@import url(css/main.css);
+			@import url(css/milkbox/milkbox.css);/* Milkbox css */
+		</style>
+		
+<script type="text/javascript" src="js/mootools-1.2.1-core-yc.js"></script>
+<script type="text/javascript" src="js/mootools-1.2-more.js"></script> 
+<script type="text/javascript" src="js/milkbox.js"></script>
+
+
+<link rel="stylesheet" href="utils/mm_lodging1.css" type="text/css" />
+<link rel="stylesheet" href="utils/css/naviBar.css" type="text/css" />
+<link rel="stylesheet" href="utils/css/towrLegend.css" type="text/css" media="screen" />
+<link rel="shortcut icon" href="utils/imgs/favicon.ico" />
+<link rel="icon" href="utils/imgs/extra/animated_favicon1.gif" type="image/gif" />
+
+<STYLE type="text/css" media="screen">
+	img.imageTorre1{ display: none; }
+	dl#Torre1{
+		margin: 0;
+		padding: 0;
+		background: transparent url(Foto_Torre.jpg) top left no-repeat;
+		height: 342px;
+		width:  200px;
+		position: relative;
+	}
+	img.imageTorre2{ display: none; }
+	dl#Torre2{
+		margin: 0;
+		padding: 0;
+		background: transparent url(Foto_Torre.jpg) top left no-repeat;
+		height: 342px;
+		width:  200px;
+		position: relative;
+	}
+	img.imageTorre3{ display: none; }
+	dl#Torre3{
+		margin: 0;
+		padding: 0;
+		background: transparent url(Foto_Torre.jpg) top left no-repeat;
+		height: 342px;
+		width:  200px;
+		position: relative;
+	}
+	img.imageTorre4{ display: none; }
+	dl#Torre4{
+		margin: 0;
+		padding: 0;
+		background: transparent url(Foto_Torre.jpg) top left no-repeat;
+		height: 342px;
+		width:  200px;
+		position: relative;
+	}
+</STYLE>
+
+<script src="utils/js/main.js"></script> 
+
+</head>
+<body onload="TheTimer(); 
+			  LampMichelangelo0();
+				LampMichelangelo1();
+				LampMichelangelo2();
+				LampLeonardo0();
+				LampLeonardo1();
+				LampLeonardo2();
+				LampDonatello0();
+				LampDonatello1();
+				LampDonatello2();
+				LampRaffaello0();
+				LampRaffaello1();
+				LampRaffaello2();">
+
+<img src="utils/imgs/Foto_Torre.jpg" alt="TOWR" width="197" height="342" class="imageTorre1" />
+<img src="utils/imgs/Foto_Torre.jpg" alt="TOWR" width="197" height="342" class="imageTorre2" />
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+	<tr>
+	<td width="15%" nowrap="nowrap">&nbsp;</td>
+	<td height="60" class="logo" nowrap="nowrap"><div align="justify">Eolo</div></td>
+	<td height="60" class="logo" nowrap="nowrap"><div align="right"><img src="utils/imgs/logo.png" alt="EWLogo" width="180" height="56" /></div></td>
+	<td width="100%">&nbsp;</td>
+	</tr>
+
+	<tr>
+	<td colspan="4"><img src="utils/mm_spacer.gif" alt="" width="1" height="1" border="0" /></td>
+	</tr>
+
+	<tr  class='topBar'>
+		<td width="15%" height="20" >
+		</td>
+		<td colspan="2" height="20" class="navText" >
+		<table border="0">
+			<tr>
+				<td width="20%" id="navigationButton1">
+					<a href="http://www.electrawinds.be/"  target="_blank"><span class="ombra">Home</span></a>
+					
+				</td>
+				<td width="10%">&nbsp;
+					
+				</td>
+				<td width="20%" id="navigationButton2">
+					<a href="img/Pontedera1.jpg" rel="milkbox[gall1]" title="Photo Pontedera">
+					<span class="ombra">DockLand</span></a>
+				</td>
+			</tr>
+		</table>
+		</td>
+		<td width="15%" height="20" >
+		</td>
+	</tr>
+	<tr>
+		<td colspan="4"><img src="utils/mm_spacer.gif" alt="" width="1" height="1" border="0" /></td>
+	</tr>
+
+	<tr>
+	<td valign="top" width="15%"><img src="utils/mm_spacer.gif" alt="" width="15" height="1" border="0" /></td>
+	<td colspan="2" valign="top" ><img src="utils/mm_spacer.gif" alt="" width="35" height="1" border="0" /><br />
+	  <table width="710" border="0" cellspacing="0" cellpadding="1" >
+        <tr>
+          <td colspan="7"></td>
+        </tr>
+		<tr>
+			<td colspan="7">
+		</td>
+	    </tr>
+		<tr>			
+			<td colspan="4">
+				<div align="left" class="pageName">Ligth Status</div> 
+			</td>
+			<td width="460" colspan="3">
+				<div id="orologio" name="orologio" align="right" class="sidebarText">Last check at: *time* next in: *time*</div> 
+			</td>
+		</tr>
+        <tr>
+		  <td width="200">  
+			<dl id="Torre1" name="Torre1">
+					<dd id="NameMichelangelo"><span >Michelangelo</span></dd>
+					<dt id="LuceUno1">Ligth 1</dt>
+					<dd id="Luce1Def1"><a id="Luce1Defa1" href="#"><span>Ligth 1</span></a></dd>
+					<dt id="LuceDue1">Ligth 2</dt>
+					<dd id="Luce2Def1"><a id="Luce2Defa1" href="#"><span>Ligth 2</span></a></dd>
+					<dt id="LuceTre1">Ligth 3</dt>
+					<dd id="Luce3Def1"><a id="Luce3Defa1" href="#"><span>Ligth 3</span></a></dd>
+			</dl>
+		  </td>
+		  <td width="200" colspan="2">  
+			<dl id="Torre2" name="Torre2">
+					<dd id="NameLeonardo"><span >Leonardo</span></dd>
+					<dt id="LuceUno2">Ligth 1</dt>
+					<dd id="Luce1Def2"><a id="Luce1Defa2" href="#"><span>Ligth 1</span></a></dd>
+					<dt id="LuceDue2">Ligth 2</dt>
+					<dd id="Luce2Def2"><a id="Luce2Defa2" href="#"><span>Ligth 2</span></a></dd>
+					<dt id="LuceTre2">Ligth 3</dt>
+					<dd id="Luce3Def2"><a id="Luce3Defa2" href="#"><span>Ligth 3</span></a></dd>
+			</dl>
+		  </td>
+		  <td width="200" colspan="2">  
+			<dl id="Torre3" name="Torre3">
+			<dd id="NameDonatello"><span >Donatello</span></dd>
+					<dt id="LuceUno3">Ligth 1</dt>
+					<dd id="Luce1Def3"><a id="Luce1Defa3" href="#"><span>Ligth 1</span></a></dd>
+					<dt id="LuceDue3">Ligth 2</dt>
+					<dd id="Luce2Def3"><a id="Luce2Defa3" href="#"><span>Ligth 2</span></a></dd>
+					<dt id="LuceTre3">Ligth 3</dt>
+					<dd id="Luce3Def3"><a id="Luce3Defa3" href="#"><span>Ligth 3</span></a></dd>
+			</dl>
+		  </td>
+		  <td width="200" colspan="2">  
+			<dl id="Torre4" name="Torre4">
+			<dd id="NameRaffaello"><span >Raffaello</span></dd>
+					<dt id="LuceUno4">Ligth 1</dt>
+					<dd id="Luce1Def4"><a id="Luce1Defa4" href="#"><span>Ligth 1 </span></a></dd>
+					<dt id="LuceDue4">Ligth 2</dt>
+					<dd id="Luce2Def4"><a id="Luce2Defa4" href="#"><span>Ligth 2</span></a></dd>
+					<dt id="LuceTre4">Ligth 3</dt>
+					<dd id="Luce3Def4"><a id="Luce3Defa4" href="#"><span>Ligth 3</span></a></dd>
+			</dl>
+		  </td>
+		</tr> 
+		<tr>
+		<td colspan="7">
+			<div id="tabella" align="left"></div> 	
+		  </td>
+		</tr>
+		<tr>
+			<td colspan="7">
+				<div align="center">   
+					<iframe width="800" 
+							height="300" 
+							frameborder="0" 
+							scrolling="no" 
+							marginheight="0" 
+							marginwidth="0" 
+							src="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=it&amp;msa=0&amp;msid=100304350058420776330.000462791c2bb412e6c79&amp;t=h&amp;ll=43.655391,10.605755&amp;spn=0.015214,0.038624&amp;output=embed&amp;s=AARTsJrmkNQNvWc3KJA1Du-Px0M4NJFhtw"></iframe>
+				</div>
+			</td>
+		</tr>
+      </table>
+	  </td>
+	<td>&nbsp;</td>
+	</tr>
+
+	<tr>
+	<td width="15%">&nbsp;</td>
+    <td width="35">&nbsp;</td>
+    <td width="710" class="footerText"><div align="right"><a href="mailto:giovannilt@gmail.com">Web Master</a></div></td>
+	<td width="100%">&nbsp;</td>
+  </tr>
+</table>
+<div id="box" style="visibility:hidden">	
+			<table id="gallery" cellspacing="0" style="margin-top:20px; ">
+				<tr>
+					<td>
+						<a href="img/Pontedera2.jpg" rel="milkbox[gall1]" >
+							<img src="img/Pontedera2.jpg" alt="" width="100" height="100" />
+						</a>
+					</td>
+					<td>
+						<a href="img/Pontedera3.jpg" rel="milkbox[gall1]" >
+							<img src="img/Pontedera3.jpg" alt="" width="100" height="100" />
+						</a>
+					</td>
+					<td>
+						<a href="img/Pontedera4.jpg" rel="milkbox[gall1]" >
+							<img src="img/Pontedera4.jpg" alt="" width="100" height="100" />
+						</a>
+					</td>
+					<td>
+						<a href="img/Pontedera5.jpg" rel="milkbox[gall1]" >
+							<img src="img/Pontedera5.jpg" alt="" width="100" height="100" />
+						</a>
+					</td>
+					<td>
+						<a href="img/Pontedera6.jpg" rel="milkbox[gall1]" >
+							<img src="img/Pontedera6.jpg" alt="" width="100" height="100" />
+						</a>
+					</td>
+				</tr>
+			</table>
+	</div>
+</body>
+<script>
+	ajaxFunction();
+	document.getElementById('navigate').style.display = 'block';
+	//PhotoNav.init('navigate', 400, 670, false, 0, false);
+	// DEBUG MODE PhotoNav.init('navigate', 400, 670, false, 0, true);
+</script>
+</html>

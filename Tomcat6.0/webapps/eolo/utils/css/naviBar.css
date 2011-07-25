@@ -1,0 +1,32 @@
+.topBar  {
+	clear: both;
+	overflow: hidden;
+	margin: 0px;
+	border: 0px;/*1px solid gray;*/
+	background-image: url(../imgs/barra.png);
+	background-repeat: repeat-x; 
+}
+#navigationButton1 a {
+	font:20px arial;
+	color: #FFFFFF;
+	text-decoration:none;
+	letter-spacing:.1em;	
+}
+	
+#navigationButton1 a:hover {
+	color: #993300;
+	
+}
+.ombra{
+	text-shadow: 2px 2px 3px #000, 1px 3px 5px #f00;
+}
+#navigationButton2 a {
+	font:20px arial;
+	color: #FFFFFF;
+	text-decoration:none;
+	letter-spacing:.1em;
+	}
+	
+#navigationButton2 a:hover {
+	color: #993300;
+}

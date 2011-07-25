@@ -1,0 +1,300 @@
+/* ---------- hidden ONLY if CSS is enabled.  If disabled, image is rendered ---------- */
+
+dt{ margin: 0; padding: 0; position: absolute; font-size: 85%; display: none; }
+dd{ margin: 0; padding: 0; position: absolute;  font-size: 85%;  }
+
+/* ---------- Hotspot Declarations ---------- */
+
+dd#NameMichelangelo span{ 
+	display: block;
+	text-indent: 10;
+	vertical-align: middle;
+	color: #0D0D0E; 
+	background-color: #FFFFFF; 
+	font-weight: bold;
+	position: absolute;
+	border: 1px solid #BCBCBC;
+	padding: 3px;
+	width: 70px;
+	top: 10px; 
+	left: 30px;  
+}
+
+dd#NameLeonardo span{ 
+	display: block;
+	text-indent: 10;
+	vertical-align: middle;
+	color: #0D0D0E; 
+	background-color: #FFFFFF; 
+	font-weight: bold;
+	position: absolute;
+	border: 1px solid #BCBCBC;
+	padding: 3px;
+	width: 50px;
+	top: 10px; 
+	left: 30px;  
+}
+dd#NameDonatello span{ 
+	display: block;
+	text-indent: 10;
+	vertical-align: middle;
+	color: #0D0D0E; 
+	background-color: #FFFFFF; 
+	font-weight: bold;
+	position: absolute;
+	border: 1px solid #BCBCBC;
+	padding: 3px;
+	width: 50px;
+	top: 10px; 
+	left: 30px;  
+}
+dd#NameRaffaello span{ 
+	display: block;
+	text-indent: 10;
+	vertical-align: middle;
+	color: #0D0D0E; 
+	background-color: #FFFFFF; 
+	font-weight: bold;
+	position: absolute;
+	border: 1px solid #BCBCBC;
+	padding: 3px;
+	width: 50px;
+	top: 10px; 
+	left: 30px;  
+}
+
+dd#Luce1Def1{ top: 90px; left: 90px;  }
+dd#Luce1Def1 a{ position: absolute; width: 10px; height: 10px; text-decoration: none;  }
+dd#Luce1Def1 a span{ display: none; }
+dd#Luce1Def1 a:hover{ position: absolute; background: transparent url(Foto_Torre.jpg) -109px -317px no-repeat; top: 0px; left: 0px; }
+dd#Luce1Def1 a:hover span{
+	display: block;
+	text-indent: 0;
+	vertical-align: top;
+	color: #000;
+	background-color: #F4F44;
+	font-weight: bold;
+	position: absolute;
+	border: 1px solid #BCBCBC;
+	bottom: 100%;
+	margin: 0;
+	padding: 5px;
+	width: 250%;
+}
+/* ---------- Hotspot Declarations ---------- */
+dd#Luce2Def1{ top: 90px; left: 70px; }
+dd#Luce2Def1 a{ position: absolute; width: 10px; height: 10px; text-decoration: none;  }
+dd#Luce2Def1 a span{ display: none; }
+dd#Luce2Def1 a:hover{ position: absolute; background: transparent url(Foto_Torre.jpg) -109px -317px no-repeat; top: 0px; left: 0px; }
+dd#Luce2Def1 a:hover span{
+	display: block;
+	text-indent: 0;
+	vertical-align: top;
+	color: #000;
+	background-color: #F4F90;
+	font-weight: bold;
+	position: absolute;
+	border: 1px solid #BCBCBC;
+	bottom: 100%;
+	margin: 0;
+	padding: 5px;
+	width: 250%;
+}
+
+/* ---------- Hotspot Declarations ---------- */
+dd#Luce3Def1{ top: 260px; left: 80px; }
+dd#Luce3Def1 a{ position: absolute; width: 10px; height: 10px; text-decoration: none;  }
+dd#Luce3Def1 a span{ display: none; }
+dd#Luce3Def1 a:hover{ position: absolute; background: transparent url(Foto_Torre.jpg) -109px -317px no-repeat; top: 0px; left: 0px; }
+dd#Luce3Def1 a:hover span{
+	display: block;
+	text-indent: 0;
+	vertical-align: top;
+	color: #000;
+	background-color: #F4F44;
+	font-weight: bold;
+	position: absolute;
+	border: 1px solid #BCBCBC;
+	bottom: 100%;
+	margin: 0;
+	padding: 5px;
+	width: 250%;
+}
+/* ---------- Hotspot Declarations ---------- */
+dd#Luce1Def2{ top: 90px; left: 90px;  }
+dd#Luce1Def2 a{ position: absolute; width: 10px; height: 10px; text-decoration: none;  }
+dd#Luce1Def2 a span{ display: none; }
+dd#Luce1Def2 a:hover{ position: absolute; background: transparent url(Foto_Torre.jpg) -109px -317px no-repeat; top: 0px; left: 0px; }
+dd#Luce1Def2 a:hover span{
+	display: block;
+	text-indent: 0;
+	vertical-align: top;
+	color: #000;
+	background-color: #F4F44;
+	font-weight: bold;
+	position: absolute;
+	border: 1px solid #BCBCBC;
+	bottom: 100%;
+	margin: 0;
+	padding: 5px;
+	width: 250%;
+}
+
+/* ---------- Hotspot Declarations ---------- */
+dd#Luce2Def2{ top: 90px; left: 70px; }
+dd#Luce2Def2 a{ position: absolute; width: 10px; height: 10px; text-decoration: none;  }
+dd#Luce2Def2 a span{ display: none; }
+dd#Luce2Def2 a:hover{ position: absolute; background: transparent url(Foto_Torre.jpg) -109px -317px no-repeat; top: 0px; left: 0px; }
+dd#Luce2Def2 a:hover span{
+	display: block;
+	text-indent: 0;
+	vertical-align: top;
+	color: #000;
+	background-color: #F4F90;
+	font-weight: bold;
+	position: absolute;
+	border: 1px solid #BCBCBC;
+	bottom: 100%;
+	margin: 0;
+	padding: 5px;
+	width: 250%;
+}
+
+/* ---------- Hotspot Declarations ---------- */
+dd#Luce3Def2{ top: 260px; left: 80px; }
+dd#Luce3Def2 a{ position: absolute; width: 10px; height: 10px; text-decoration: none;  }
+dd#Luce3Def2 a span{ display: none; }
+dd#Luce3Def2 a:hover{ position: absolute; background: transparent url(Foto_Torre.jpg) -109px -317px no-repeat; top: 0px; left: 0px; }
+dd#Luce3Def2 a:hover span{
+	display: block;
+	text-indent: 0;
+	vertical-align: top;
+	color: #000;
+	background-color: #F4F44;
+	font-weight: bold;
+	position: absolute;
+	border: 1px solid #BCBCBC;
+	bottom: 100%;
+	margin: 0;
+	padding: 5px;
+	width: 250%;
+}
+
+/* ---------- Hotspot Declarations ---------- */
+dd#Luce1Def3{ top: 90px; left: 90px;  }
+dd#Luce1Def3 a{ position: absolute; width: 10px; height: 10px; text-decoration: none;  }
+dd#Luce1Def3 a span{ display: none; }
+dd#Luce1Def3 a:hover{ position: absolute; background: transparent url(Foto_Torre.jpg) -109px -317px no-repeat; top: 0px; left: 0px; }
+dd#Luce1Def3 a:hover span{
+	display: block;
+	text-indent: 0;
+	vertical-align: top;
+	color: #000;
+	background-color: #F4F44;
+	font-weight: bold;
+	position: absolute;
+	border: 1px solid #BCBCBC;
+	bottom: 100%;
+	margin: 0;
+	padding: 5px;
+	width: 250%;
+}
+
+/* ---------- Hotspot Declarations ---------- */
+dd#Luce2Def3{ top: 90px; left: 70px; }
+dd#Luce2Def3 a{ position: absolute; width: 10px; height: 10px; text-decoration: none;  }
+dd#Luce2Def3 a span{ display: none; }
+dd#Luce2Def3 a:hover{ position: absolute; background: transparent url(Foto_Torre.jpg) -109px -317px no-repeat; top: 0px; left: 0px; }
+dd#Luce2Def3 a:hover span{
+	display: block;
+	text-indent: 0;
+	vertical-align: top;
+	color: #000;
+	background-color: #F4F90;
+	font-weight: bold;
+	position: absolute;
+	border: 1px solid #BCBCBC;
+	bottom: 100%;
+	margin: 0;
+	padding: 5px;
+	width: 250%;
+}
+
+/* ---------- Hotspot Declarations ---------- */
+dd#Luce3Def3{ top: 260px; left: 80px; }
+dd#Luce3Def3 a{ position: absolute; width: 10px; height: 10px; text-decoration: none;  }
+dd#Luce3Def3 a span{ display: none; }
+dd#Luce3Def3 a:hover{ position: absolute; background: transparent url(Foto_Torre.jpg) -109px -317px no-repeat; top: 0px; left: 0px; }
+dd#Luce3Def3 a:hover span{
+	display: block;
+	text-indent: 0;
+	vertical-align: top;
+	color: #000;
+	background-color: #F4F44;
+	font-weight: bold;
+	position: absolute;
+	border: 1px solid #BCBCBC;
+	bottom: 100%;
+	margin: 0;
+	padding: 5px;
+	width: 250%;
+}
+/* ---------- Hotspot Declarations ---------- */
+dd#Luce1Def4{ top: 90px; left: 90px;  }
+dd#Luce1Def4 a{ position: absolute; width: 10px; height: 10px; text-decoration: none;  }
+dd#Luce1Def4 a span{ display: none; }
+dd#Luce1Def4 a:hover{ position: absolute; background: transparent url(Foto_Torre.jpg) -109px -317px no-repeat; top: 0px; left: 0px; }
+dd#Luce1Def4 a:hover span{
+	display: block;
+	text-indent: 0;
+	vertical-align: top;
+	color: #000;
+	background-color: #F4F44;
+	font-weight: bold;
+	position: absolute;
+	border: 1px solid #BCBCBC;
+	bottom: 100%;
+	margin: 0;
+	padding: 5px;
+	width: 250%;
+}
+
+/* ---------- Hotspot Declarations ---------- */
+dd#Luce2Def4{ top: 90px; left: 70px; }
+dd#Luce2Def4 a{ position: absolute; width: 10px; height: 10px; text-decoration: none;  }
+dd#Luce2Def4 a span{ display: none; }
+dd#Luce2Def4 a:hover{ position: absolute; background: transparent url(Foto_Torre.jpg) -109px -317px no-repeat; top: 0px; left: 0px; }
+dd#Luce2Def4 a:hover span{
+	display: block;
+	text-indent: 0;
+	vertical-align: top;
+	color: #000;
+	background-color: #F4F90;
+	font-weight: bold;
+	position: absolute;
+	border: 1px solid #BCBCBC;
+	bottom: 100%;
+	margin: 0;
+	padding: 5px;
+	width: 250%;
+}
+
+/* ---------- Hotspot Declarations ---------- */
+dd#Luce3Def4{ top: 260px; left: 80px; }
+dd#Luce3Def4 a{ position: absolute; width: 10px; height: 10px; text-decoration: none;  }
+dd#Luce3Def4 a span{ display: none; }
+dd#Luce3Def4 a:hover{ position: absolute; background: transparent url(Foto_Torre.jpg) -109px -317px no-repeat; top: 0px; left: 0px; }
+dd#Luce3Def4 a:hover span{
+	display: block;
+	text-indent: 0;
+	vertical-align: top;
+	color: #000;
+	background-color: #F4F44;
+	font-weight: bold;
+	position: absolute;
+	border: 1px solid #BCBCBC;
+	bottom: 100%;
+	margin: 0;
+	padding: 5px;
+	width: 250%;
+}
